@@ -1,0 +1,29 @@
+create table menu_items(
+	menu_item_id int primary key,
+	item_name varchar(500),
+	category varchar(500),
+	price decimal (10,2) 
+)
+
+create table order_details(
+	order_details_id int primary key,
+	order_id int,
+	order_date date,
+	order_time time,
+	item_id int,
+	foreign key (item_id) references menu_items(menu_item_id)
+)
+SET datestyle = 'MDY';
+
+COPY public.order_details
+(order_details_id, order_id, order_date, order_time, item_id)
+FROM 'D:/SQL/SQL Project/Restaurant_Orders/Restaurant Orders/order_details.csv'
+WITH (
+    FORMAT csv,
+    HEADER,
+    DELIMITER ',',
+    NULL 'NULL',
+    ENCODING 'WIN1252'
+);
+
+select * from order_details;
