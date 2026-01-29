@@ -1,13 +1,13 @@
 # 🍽️ Restaurant Order Insights (SQL)
 
-## 📌 Project Overview
+## Project Overview
 This project focuses on analyzing restaurant order data using **SQL** to uncover meaningful business insights related to **sales performance, menu effectiveness, and ordering patterns**.
 
 The objective of this project is to demonstrate how raw transactional data can be transformed into **actionable insights** that support data-driven decision-making in the **Food & Beverage (Restaurant Analytics)** domain.
 
 ---
 
-## 🎯 Business Problem
+## Business Problem
 Restaurants generate large volumes of order data daily, but without proper analysis, it becomes difficult to answer key business questions such as:
 - Which menu items and categories generate the most revenue?
 - What are the peak ordering hours and busiest periods?
@@ -18,7 +18,7 @@ This project addresses these challenges using structured SQL analysis.
 
 ---
 
-## 📂 About the Data
+## About the Data
 - **Data Type:** Simulated / public-style restaurant transaction data  
 - **Source:** Maven Analytics  
 - **Number of Tables:** 2  
@@ -33,7 +33,7 @@ This project addresses these challenges using structured SQL analysis.
 
 ---
 
-## 🧩 Data Model (ER Diagram Summary)
+## Data Model (ER Diagram Summary)
 - The database consists of two tables: `order_details` and `menu_items`.
 - `order_details` stores item-level order transactions along with date and time.
 - `menu_items` stores menu information such as item name, category, and price.
@@ -42,7 +42,7 @@ This project addresses these challenges using structured SQL analysis.
 
 ---
 
-## 🔍 SQL Analyses Performed
+## SQL Analyses Performed
 
 - **Sales and Revenue Analysis**
   - Total revenue generated
@@ -68,18 +68,18 @@ This project addresses these challenges using structured SQL analysis.
 
 ---
 
-## 📊 Visualization
+## Visualization
 - The SQL analysis results were visualized using **Power BI**.
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 - **PostgreSQL** – Data analysis using SQL
 - **Power BI** – Data visualization 
 - **GitHub** – Version control and project documentation
 
 ---
 
-## 📈 Key Insights
+## Key Insights
 - A small number of menu items contribute a significant share of total revenue.
 - Certain menu categories consistently outperform others.
 - Clear peak hours exist, requiring focused staffing and operational planning.
@@ -88,7 +88,7 @@ This project addresses these challenges using structured SQL analysis.
 
 ---
 
-## ✅ Proposed Solutions
+## Proposed Solutions
 - Promote high-performing and high-revenue menu items.
 - Re-evaluate or redesign low-performing items.
 - Optimize staffing and inventory during peak hours.
@@ -96,7 +96,7 @@ This project addresses these challenges using structured SQL analysis.
 
 ---
 
-## 🔮 Future Scope
+## Future Scope
 - Build interactive dashboards for real-time performance monitoring.
 - Forecast demand and peak periods using historical trends.
 - Use analytics to improve pricing, promotions, and revenue planning.
@@ -104,7 +104,7 @@ This project addresses these challenges using structured SQL analysis.
 
 ---
 
-## 🎤 One-Line Summary
+## One-Line Summary
 > *A SQL-based restaurant analytics project that transforms order data into actionable insights for sales growth and operational efficiency.*
 
 ---
